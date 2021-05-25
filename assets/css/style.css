@@ -1034,7 +1034,8 @@ button:focus {
   02.START HEADER STYLE
 *===================================*/
 .navbar-brand {
-	padding: 10px 0;
+	/* padding: 10px 0; */
+	padding: 0;
 	vertical-align: top;
 	margin: 0;
 }
@@ -1046,6 +1047,7 @@ button:focus {
 .dark_skin .logo_dark,
 .light_skin .logo_light {
 	display: block;
+	height: 5rem;
 }
 .light_skin .navbar-nav a,
 .light_skin .navbar-toggler,
@@ -3830,6 +3832,9 @@ footer {
 }
 .footer_logo {
 	margin-bottom: 20px;
+}
+.footer_logo img{
+	height: 6rem;
 }
 footer p {
 	font-size: 14px;
